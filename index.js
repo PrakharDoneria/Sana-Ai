@@ -4,9 +4,6 @@ const { mdEscape } = require("markdown-escape");
 const fs = require("fs");
 
 const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
-const PORT = process.env.PORT || 3000; // Use the port provided by Render or default to 3000
-
-bot.telegram.setWebhook(`https://prakhardoneria-sana-ai-bot-for-telegram.onrender.com/bot${process.env.TELEGRAM_BOT_TOKEN}`);
 
 
 
