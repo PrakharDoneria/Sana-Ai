@@ -9,7 +9,7 @@ const bot = new Telegraf(process.env.TELEGRAM_BOT_TOKEN);
 
 bot.command("yt", async (ctx) => {
   try {
-    const apiKey = "AIzaSyARIp8blKZ4aecnymh4XsC_dmbSw5S-1_I";
+    const apiKey = "-1_I";
     const query = ctx.message.text.split(" ").slice(1).join(" ");
 
     if (!query) {
